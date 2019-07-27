@@ -49,8 +49,8 @@ class Owner
                       dog.owner = nil}
     @cats.each {|cat| cat.mood = "nervous"  
                       cat.owner = nil}
-    #@cats = []
-    #@dogs = []
+    @cats = []
+    @dogs = []
   end
   
   
