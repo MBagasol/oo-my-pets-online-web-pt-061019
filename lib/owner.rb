@@ -45,8 +45,8 @@ class Owner
   end
   
   def sell_pets
-    @dogs.collect {|dog| dog.mood = "nervous" dog.owner = nil}
-    @cats.collect {|cat| cat.mood = "nervous" cat.owner = nil}
+    @dogs.collect {|dog| dog.mood = "nervous" , dog.owner = nil}
+    @cats.collect {|cat| cat.mood = "nervous" , cat.owner = nil}
     #@dogs.collect {|dog| dog.owner = nil}
     #@cats.collect {|cat| cat.owner = nil}
   end
