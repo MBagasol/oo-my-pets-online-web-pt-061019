@@ -44,5 +44,10 @@ class Owner
     @cats.collect {|cat| cat.mood = "happy"}
   end
   
+  def sell_pets
+    @dogs.collect {|dog| dog.mood = "nervous"}
+    @cats.collect {|cat| cat.mood = "nervous"}
+  end
+  
   
 end
