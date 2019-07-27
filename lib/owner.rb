@@ -53,7 +53,9 @@ class Owner
     @dogs = []
   end
   
-  def list_p
+  def list_pets 
+    
+  end
   
   
 end
