@@ -9,7 +9,7 @@ class Cat
     @mood = "nervous"
     @@all << self
     owner.cats << self 
-    owner.dogs << self
+    
   end
 
   
